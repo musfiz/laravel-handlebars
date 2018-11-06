@@ -84,7 +84,7 @@
 	    			//handlebar add district data row dynamically 	    			
 	    			var source   = $("#district-row-template").html();
 	    			var template = Handlebars.compile(source);	    			
-	    			$("#addRow").append(template(response));
+	    			$("#addRow").html(template(response));
 	    		
 	    		}
 	    	})
